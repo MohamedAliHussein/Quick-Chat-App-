@@ -20,7 +20,7 @@ class ChatViewController: JSQMessagesViewController {
     }()
     
     lazy var incomingBubble: JSQMessagesBubbleImage = {
-        return JSQMessagesBubbleImageFactory()!.incomingMessagesBubbleImage(with: UIColor.green)
+        return JSQMessagesBubbleImageFactory()!.incomingMessagesBubbleImage(with: UIColor.gray)
     }()
     
     override func viewDidLoad() {
